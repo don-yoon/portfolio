@@ -18,9 +18,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "flowbite": "^1.5.3",
+    "flowbite-react": "^0.1.10",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
     "@types/node": "18.7.14",
