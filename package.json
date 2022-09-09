@@ -20,10 +20,13 @@
   "dependencies": {
     "flowbite": "^1.5.3",
     "flowbite-react": "^0.1.10",
+    "framer-motion": "^7.3.2",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-spring": "^9.5.2",
+    "react-spring-carousel": "^2.0.19"
   },
   "devDependencies": {
     "@types/node": "18.7.14",

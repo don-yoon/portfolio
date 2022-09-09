@@ -10,7 +10,7 @@ const ReactIcon: React.FC<TechProps> = ({logo}) => {
   const path: string = `/${logo}.svg`
   return (
             
-    <div>
+    <div className="w-[10vw] h-[10vh] relative">
       <Image src={path} layout="fill" alt={`${logo} logo`}/>
     </div>
             
