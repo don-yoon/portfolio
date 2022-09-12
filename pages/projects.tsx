@@ -6,9 +6,9 @@ import TechStack from "../components/TechStack"
 const projects: NextPage = () => {
   return (
     <div className="flex flex-col h-[80vh]">
-      <div className="container grid grid-cols-3 m-auto gap-4">
+      <div className="grid grid-cols-3 m-auto gap-10">
         <div className="max-w-md">
-          <div>
+          <div className="h-full bg-slate-100 p-10 transform transition duration-400 hover:scale-110">
             <div className="text-2xl mb-2 cursor-pointer">
               <a href="https://github.com/learn-academy-2022-charlie/apartment-app-don-yoon" target="_blank" rel="noreferrer">Apartment App</a>
             </div>
@@ -16,17 +16,17 @@ const projects: NextPage = () => {
           </div>
         </div>
         <div className="max-w-md">
-          <div>
+          <div className="h-full bg-slate-100 p-10 transform transition duration-400 hover:scale-110">
             <Link href="https://github.com/learn-academy-2022-charlie/cat-tinder-frontend-bengal-lati">
               <div className="text-2xl mb-2 cursor-pointer"><a>Cinder</a></div>
             </Link>
-            <p>
+            <p className="grow">
               First full stack application utilizing CRUD functionality using a rails backend.
             </p>
           </div>
         </div>
         <div className="max-w-md">
-          <div>
+          <div className="h-full bg-slate-100 p-10 transform transition duration-400 hover:scale-110">
             <Link href="">
               <div className="text-2xl mb-2 cursor-pointer"><a>Ruby Text Based Game</a></div>
             </Link>
@@ -36,7 +36,7 @@ const projects: NextPage = () => {
           </div>
         </div>
         <div className="max-w-md">
-          <div>
+          <div className="h-full bg-slate-100 p-10 transform transition duration-400 hover:scale-110">
             <Link href="https://github.com/learn-academy-2022-charlie/pig-latin-teamaltered">
               <div className="text-2xl mb-2 cursor-pointer"><a >Pig Latin Translator</a></div>
             </Link>
@@ -46,7 +46,7 @@ const projects: NextPage = () => {
           </div>
         </div>
         <div className="max-w-md">
-          <div>
+          <div className="h-full bg-slate-100 p-10 transform transition duration-400 hover:scale-110">
             <Link href="https://github.com/learn-academy-2022-charlie/tic-tac-toe-tic-tac-wood">
               <div className="text-2xl mb-2 cursor-pointer"><a>Tic Tac Toe</a></div>
             </Link>

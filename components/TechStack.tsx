@@ -26,14 +26,14 @@ const TechStack = () => {
     items: techArray.map((techObj) => ({
       id: `item-${techObj.id}`,
       renderItem: (
-        <div className="transform transition duration-400 hover:scale-150">
+        <div className="select-none transform transition duration-400 hover:scale-150">
           <ReactIcon logo={techObj.tech}/>
         </div>
       ),
     })),
   })
   useEffect(() => {
-    const timer = setInterval(() => {
+    const timer: NodeJS.Timer = setInterval(() => {
       slideToNextItem()
     }, 1500)
     return () => {
