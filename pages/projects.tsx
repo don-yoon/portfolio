@@ -5,8 +5,8 @@ import TechStack from "../components/TechStack"
 
 const projects: NextPage = () => {
   return (
-    <div className="flex flex-col h-[80vh]">
-      <div className="grid grid-cols-3 m-auto gap-10">
+    <div className="flex flex-col h-[80vh]  overflow-y-auto">
+      <div className="grid grid-cols-3 m-auto pt-10 gap-10 ">
         <div className="max-w-md">
           <div className="h-full bg-slate-100 p-10 transform transition duration-400 hover:scale-110">
             <div className="text-2xl mb-2 cursor-pointer">
