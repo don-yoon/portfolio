@@ -8,10 +8,10 @@ const Header = () => {
         <div>theDon</div>
       </div>
       <div className="my-auto ml-auto mr-10 flex flex-row space-x-10 text-lg">
-        <div className="duration-400 transform transition hover:scale-110">
+        <div className="transition duration-[400] hover:scale-110">
           <Link href="/projects">Projects</Link>
         </div>
-        <div className="duration-400 transform transition hover:scale-110">
+        <div className="transition duration-[400] hover:scale-110">
           <Link href="/">Home</Link>
         </div>
       </div>

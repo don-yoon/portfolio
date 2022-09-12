@@ -9,11 +9,11 @@ interface ChildrenProps {
 
 const Layout = ({ children }: ChildrenProps) => {
   return (
-    <div className="flex min-h-screen w-full flex-coly">
+    <div className="flex min-h-screen w-full flex-col">
       <div className="w-full">
         <Header />
       </div>
-      <div className="flex flex-grow">
+      <div className="flex grow">
         <Transition>{children}</Transition>
       </div>
       <div className="w-full">

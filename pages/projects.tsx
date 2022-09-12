@@ -6,9 +6,9 @@ import TechStack from "../components/TechStack"
 const projects: NextPage = () => {
   return (
     <div className="flex h-[80vh] flex-col  overflow-y-auto">
-      <div className="m-auto grid grid-cols-3 gap-10 pt-10 ">
+      <div className="m-auto grid grid-cols-3 gap-10 pt-10 sm:grid-cols-1 md:grid-cols-2 ">
         <div className="max-w-md">
-          <div className="duration-400 h-full transform bg-slate-100 p-10 transition hover:scale-110">
+          <div className="h-full bg-slate-100 p-10 transition duration-[400] hover:scale-110">
             <div className="mb-2 cursor-pointer text-2xl">
               <a
                 href="https://github.com/learn-academy-2022-charlie/apartment-app-don-yoon"
@@ -25,7 +25,7 @@ const projects: NextPage = () => {
           </div>
         </div>
         <div className="max-w-md">
-          <div className="duration-400 h-full transform bg-slate-100 p-10 transition hover:scale-110">
+          <div className="h-full bg-slate-100 p-10 transition duration-[400] hover:scale-110">
             <Link href="https://github.com/learn-academy-2022-charlie/cat-tinder-frontend-bengal-lati">
               <div className="mb-2 cursor-pointer text-2xl">
                 <a>Cinder</a>
@@ -38,7 +38,7 @@ const projects: NextPage = () => {
           </div>
         </div>
         <div className="max-w-md">
-          <div className="duration-400 h-full transform bg-slate-100 p-10 transition hover:scale-110">
+          <div className="h-full bg-slate-100 p-10 transition duration-[400] hover:scale-110">
             <Link href="">
               <div className="mb-2 cursor-pointer text-2xl">
                 <a>Ruby Text Based Game</a>
@@ -51,7 +51,7 @@ const projects: NextPage = () => {
           </div>
         </div>
         <div className="max-w-md">
-          <div className="duration-400 h-full transform bg-slate-100 p-10 transition hover:scale-110">
+          <div className="h-full bg-slate-100 p-10 transition duration-[400] hover:scale-110">
             <Link href="https://github.com/learn-academy-2022-charlie/pig-latin-teamaltered">
               <div className="mb-2 cursor-pointer text-2xl">
                 <a>Pig Latin Translator</a>
@@ -64,7 +64,7 @@ const projects: NextPage = () => {
           </div>
         </div>
         <div className="max-w-md">
-          <div className="duration-400 h-full transform bg-slate-100 p-10 transition hover:scale-110">
+          <div className="h-full bg-slate-100 p-10 transition duration-[400] hover:scale-110">
             <Link href="https://github.com/learn-academy-2022-charlie/tic-tac-toe-tic-tac-wood">
               <div className="mb-2 cursor-pointer text-2xl">
                 <a>Tic Tac Toe</a>
