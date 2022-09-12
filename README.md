@@ -1,3 +1,3 @@
-Welcome to my portolio!
+Welcome to my portfolio!
 
-I have tried to create my portolio using NEXT and TS to expand my knowledge base.
+I have tried to create my portfolio using NEXT and TS to expand my knowledge base.

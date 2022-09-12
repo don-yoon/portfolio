@@ -4,22 +4,20 @@ import Header from "./Header"
 import Transition from "./Transition"
 
 interface ChildrenProps {
-    children: JSX.Element | JSX.Element[]
+  children: JSX.Element | JSX.Element[];
 }
 
-const Layout = ({children}:ChildrenProps) => {
+const Layout = ({ children }: ChildrenProps) => {
   return (
-    <div className="flex flex-col w-full min-h-screen">
+    <div className="flex min-h-screen w-full flex-coly">
       <div className="w-full">
-        <Header/>
+        <Header />
       </div>
       <div className="flex flex-grow">
-        <Transition>
-          { children }
-        </Transition>
+        <Transition>{children}</Transition>
       </div>
       <div className="w-full">
-        <Footer/>
+        <Footer />
       </div>
     </div>
   )

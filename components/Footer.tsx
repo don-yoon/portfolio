@@ -4,24 +4,28 @@ import Link from "next/link"
 const Footer = () => {
   return (
     <>
-      <div className="flex h-[10vh] bg-blue-900 text-white items-center select-none">
-        <div className="text-white cursor-default ml-10">
-          &copy; theDon
-        </div>
-        <div className="flex ml-auto mr-10 space-x-5 ">
-          <div className="w-10 h-10 transform transition duration-400 hover:scale-110">
+      <div className="flex h-[10vh] select-none items-center bg-blue-900 text-white">
+        <div className="ml-10 cursor-default text-white">&copy; theDon</div>
+        <div className="ml-auto mr-10 flex space-x-5 ">
+          <div className="duration-400 h-10 w-10 transform transition hover:scale-110">
             <Link href="https://github.com/don-yoon" target="_blank">
-              <a><img src="/github.svg" alt="github" /></a>
+              <a>
+                <img src="/github.svg" alt="github" />
+              </a>
             </Link>
           </div>
-          <div className="w-10 h-10 transform transition duration-400 hover:scale-110">
-            <Link href=""  target="_blank">
-              <a><img src="/gmail.svg" alt="contact" /></a>
+          <div className="duration-400 h-10 w-10 transform transition hover:scale-110">
+            <Link href="" target="_blank">
+              <a>
+                <img src="/gmail.svg" alt="contact" />
+              </a>
             </Link>
           </div>
-          <div className="w-10 h-10 transform transition duration-400 hover:scale-110">
+          <div className="duration-400 h-10 w-10 transform transition hover:scale-110">
             <Link href="https://linkedin.com/in/don-yoon" target="_blank">
-              <a><img src="/linkedin.svg" alt="linkedin" /></a>
+              <a>
+                <img src="/linkedin.svg" alt="linkedin" />
+              </a>
             </Link>
           </div>
         </div>
@@ -29,6 +33,5 @@ const Footer = () => {
     </>
   )
 }
-
 
 export default Footer

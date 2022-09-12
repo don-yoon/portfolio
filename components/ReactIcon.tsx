@@ -1,19 +1,16 @@
 import Image from "next/image"
 import React from "react"
 
-
 interface TechProps {
-    logo: string
+  logo: string;
 }
 
-const ReactIcon: React.FC<TechProps> = ({logo}) => {
+const ReactIcon: React.FC<TechProps> = ({ logo }) => {
   const path: string = `/${logo}.svg`
   return (
-            
-    <div className="w-[10vw] h-[10vh] relative">
-      <Image src={path} layout="fill" alt={`${logo} logo`}/>
+    <div className="relative h-[10vh] w-[10vw]">
+      <Image src={path} layout="fill" alt={`${logo} logo`} />
     </div>
-            
   )
 }
 

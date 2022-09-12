@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
       <div>
         <main>
-          <AboutMe/>
+          <AboutMe />
         </main>
       </div>
     </>

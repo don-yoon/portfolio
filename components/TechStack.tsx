@@ -3,31 +3,28 @@ import ReactIcon from "./ReactIcon"
 import { useSpringCarousel } from "react-spring-carousel"
 
 const TechStack = () => {
-  const techArray: {tech: string, id: number}[] = [
-    {"tech":"javascript", "id":1},
-    {"tech":"typescript", "id":2},
-    {"tech":"react", "id":3},
-    {"tech":"nextjs","id":4},
-    {"tech":"css3", "id":5},
-    {"tech":"tailwind", "id":6},
-    {"tech":"html5", "id":7},
-    {"tech":"bootstrap","id":8},
-    {"tech":"ruby", "id":9},
-    {"tech":"rails", "id":10},
-    {"tech":"postgresql", "id":11}
+  const techArray: { tech: string; id: number }[] = [
+    { tech: "javascript", id: 1 },
+    { tech: "typescript", id: 2 },
+    { tech: "react", id: 3 },
+    { tech: "nextjs", id: 4 },
+    { tech: "css3", id: 5 },
+    { tech: "tailwind", id: 6 },
+    { tech: "html5", id: 7 },
+    { tech: "bootstrap", id: 8 },
+    { tech: "ruby", id: 9 },
+    { tech: "rails", id: 10 },
+    { tech: "postgresql", id: 11 },
   ]
 
-  const { 
-    carouselFragment,
-    slideToNextItem
-  } = useSpringCarousel({
-    slideType:"fluid",
+  const { carouselFragment, slideToNextItem } = useSpringCarousel({
+    slideType: "fluid",
     withLoop: true,
     items: techArray.map((techObj) => ({
       id: `item-${techObj.id}`,
       renderItem: (
-        <div className="select-none transform transition duration-400 hover:scale-150">
-          <ReactIcon logo={techObj.tech}/>
+        <div className="duration-400 transform select-none transition hover:scale-150">
+          <ReactIcon logo={techObj.tech} />
         </div>
       ),
     })),
@@ -41,12 +38,9 @@ const TechStack = () => {
     }
   }, [slideToNextItem])
 
-  
   return (
     <>
-      <div className="overflow-x-hidden p-20">
-        { carouselFragment }
-      </div>
+      <div className="overflow-x-hidden p-20">{carouselFragment}</div>
     </>
   )
 }
