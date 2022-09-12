@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const AboutMe = () => {
   return (
-    <div className="pointer-events-none flex h-[82vh] select-none items-center justify-center rounded-md bg-slate-100 object-fill p-10">
+    <div className="pointer-events-none flex h-[82vh] select-none items-center justify-center rounded-md bg-slate-100 object-fill p-10 text-xl sm:text-base">
       <div className="relative h-52 w-52 overflow-hidden rounded-full border border-blue-900">
         <Image
           src="/profile.png"

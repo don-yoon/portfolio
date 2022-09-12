@@ -13,6 +13,10 @@ module.exports = {
       "xl": {"min": "1280px", "max": "1535px"},
       "2xl": {"min": "1536px"},
     },
+    fontFamily: {
+      Edu: ["Edu NSW ACT Foundation", "cursive"],
+      Raleway: ["Raleway", "sans-serif"]
+    },
     extend: {},
   },
   plugins: [require("flowbite/plugin")],
