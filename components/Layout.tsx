@@ -9,7 +9,7 @@ interface ChildrenProps {
 
 const Layout = ({ children }: ChildrenProps) => {
   return (
-    <div className="flex min-h-screen w-full flex-col">
+    <div className="flex min-h-screen w-full flex-col bg-slate-100">
       <div className="w-full">
         <Header />
       </div>

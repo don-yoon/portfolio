@@ -4,7 +4,7 @@ import Link from "next/link"
 const Footer = () => {
   return (
     <>
-      <div className="flex h-[10vh] select-none items-center bg-blue-900 text-white">
+      <div className="flex h-[9vh] select-none items-center bg-blue-900 text-white">
         <div className="ml-10 cursor-default text-white">&copy; theDon</div>
         <div className="ml-auto mr-10 flex space-x-5 ">
           <div className="h-10 w-10 transition duration-[400] hover:scale-110">

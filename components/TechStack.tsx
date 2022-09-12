@@ -44,7 +44,7 @@ const TechStack = () => {
   
   return (
     <>
-      <div className="overflow-x-hidden p-20">
+      <div className="overflow-x-hidden p-10">
         { carouselFragment }
       </div>
     </>
