@@ -2,6 +2,7 @@ import type { NextPage } from "next"
 import Head from "next/head"
 import React from "react"
 import AboutMe from "../components/AboutMe"
+import TheDon from "../components/TheDon"
 
 const Home: NextPage = () => {
   return (

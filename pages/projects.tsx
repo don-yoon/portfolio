@@ -5,12 +5,12 @@ import TechStack from "../components/TechStack"
 const projects: NextPage = () => {
   return (
     <>
-      <div className="flex h-[65vh] select-none flex-col overflow-y-auto">
-        <div className="pt-10 text-center text-2xl">Internship</div>
+      <div className="flex h-[65vh] select-none flex-col overflow-y-auto py-10">
+        <div className="m-auto w-1/5 bg-blue-900 text-center text-3xl text-white">Internship</div>
         <div className="m-auto grid grid-cols-3 gap-10 pt-10 sm:grid-cols-1 md:grid-cols-2 ">
           <div className="max-w-md">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
-              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-2xl text-white">
+              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
                   href="https://github.com/LEARNAcademy/classroom"
                   target="_blank"
@@ -26,7 +26,7 @@ const projects: NextPage = () => {
           </div>
           <div className="max-w-md">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
-              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-2xl text-white">
+              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
                   href="https://github.com/LEARNAcademy/student-application"
                   target="_blank"
@@ -41,11 +41,11 @@ const projects: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="pt-10 text-center text-2xl">Coursework</div>
+        <div className="m-auto mt-10 w-1/5 bg-blue-900 text-center text-3xl text-white">Coursework</div>
         <div className="m-auto grid grid-cols-3 gap-10 py-10 sm:grid-cols-1 md:grid-cols-2 ">
           <div className="max-w-md">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
-              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-2xl text-white">
+              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
                   href="https://github.com/learn-academy-2022-charlie/apartment-app-don-yoon"
                   target="_blank"
@@ -62,7 +62,7 @@ const projects: NextPage = () => {
           </div>
           <div className="max-w-md">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
-              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-2xl text-white">
+              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
                   href="https://github.com/learn-academy-2022-charlie/cat-tinder-frontend-bengal-lati"
                   target="_blank"
@@ -79,7 +79,7 @@ const projects: NextPage = () => {
           </div>
           <div className="max-w-md">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
-              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-2xl text-white">
+              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
                   href=""
                   target="_blank"
@@ -97,7 +97,7 @@ const projects: NextPage = () => {
           <div className="max-w-md">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
               
-              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-2xl text-white">
+              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
                   href="https://github.com/learn-academy-2022-charlie/pig-latin-teamaltered"
                   target="_blank"
@@ -114,7 +114,7 @@ const projects: NextPage = () => {
           </div>
           <div className="max-w-md">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">        
-              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-2xl text-white">
+              <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
                   href="https://github.com/learn-academy-2022-charlie/tic-tac-toe-tic-tac-wood"
                   target="_blank"
