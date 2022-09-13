@@ -23,10 +23,11 @@ const TechStack = () => {
   } = useSpringCarousel({
     slideType:"fluid",
     withLoop: true,
+    carouselSlideAxis: "y",
     items: techArray.map((techObj) => ({
       id: `item-${techObj.id}`,
       renderItem: (
-        <div className="transition duration-[400] hover:scale-150">
+        <div className="py-5 transition duration-[400] hover:scale-150">
           <ReactIcon logo={techObj.tech}/>
         </div>
       ),
@@ -44,7 +45,7 @@ const TechStack = () => {
   
   return (
     <>
-      <div className="overflow-x-hidden p-10">
+      <div className="h-[82vh]">
         { carouselFragment }
       </div>
     </>

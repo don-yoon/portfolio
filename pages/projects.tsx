@@ -4,8 +4,9 @@ import TechStack from "../components/TechStack"
 
 const projects: NextPage = () => {
   return (
-    <>
-      <div className="flex h-[65vh] select-none flex-col overflow-y-auto py-10">
+    <div className="flex">
+      <TechStack />
+      <div className="flex h-[82vh] w-[100vw] select-none flex-col overflow-y-auto py-10">
         <div className="m-auto w-1/5 bg-blue-900 text-center text-3xl text-white">Internship</div>
         <div className="m-auto grid grid-cols-3 gap-10 pt-10 sm:grid-cols-1 md:grid-cols-2 ">
           <div className="max-w-md">
@@ -131,10 +132,8 @@ const projects: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="h-[17vh]">
-        <TechStack />
-      </div>
-    </>
+      
+    </div>
   )
 }
 
