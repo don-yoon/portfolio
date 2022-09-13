@@ -37,7 +37,7 @@ const Transition = ({ children }: ChildrenProps) => {
   const { asPath } = useRouter()
   return (
     <div className="overflow-hidden">
-      <AnimatePresence >
+      <AnimatePresence initial={false} exitBeforeEnter>
         <motion.div
           key={asPath}
           variants={variant}
