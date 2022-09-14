@@ -4,12 +4,12 @@ import TechStack from "../components/TechStack"
 
 const projects: NextPage = () => {
   return (
-    <div className="flex">
+    <div className="flex overflow-hidden">
       <TechStack />
       <div className="flex h-[82vh] w-[100vw] select-none flex-col overflow-y-auto py-10">
         <div className="m-auto w-1/5 bg-blue-900 text-center text-3xl text-white">Internship</div>
         <div className="m-auto grid grid-cols-3 gap-10 pt-10 sm:grid-cols-1 md:grid-cols-2 ">
-          <div className="max-w-md">
+          <div className="max-w-[25vw]">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
               <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
@@ -25,7 +25,7 @@ const projects: NextPage = () => {
               </p>
             </div>
           </div>
-          <div className="max-w-md">
+          <div className="max-w-[25vw]">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
               <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
@@ -44,7 +44,7 @@ const projects: NextPage = () => {
         </div>
         <div className="m-auto mt-10 w-1/5 bg-blue-900 text-center text-3xl text-white">Coursework</div>
         <div className="m-auto grid grid-cols-3 gap-10 py-10 sm:grid-cols-1 md:grid-cols-2 ">
-          <div className="max-w-md">
+          <div className="max-w-[25vw]">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
               <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
@@ -61,7 +61,7 @@ const projects: NextPage = () => {
               </p>
             </div>
           </div>
-          <div className="max-w-md">
+          <div className="max-w-[25vw]">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
               <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
@@ -78,7 +78,7 @@ const projects: NextPage = () => {
               </p>
             </div>
           </div>
-          <div className="max-w-md">
+          <div className="max-w-[25vw]">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
               <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
@@ -95,7 +95,7 @@ const projects: NextPage = () => {
               </p>
             </div>
           </div>
-          <div className="max-w-md">
+          <div className="max-w-[25vw]">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">
               
               <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
@@ -113,7 +113,7 @@ const projects: NextPage = () => {
               </p>
             </div>
           </div>
-          <div className="max-w-md">
+          <div className="max-w-[25vw]">
             <div className="h-full border-2 bg-slate-100 p-10 transition duration-[400] hover:scale-110">        
               <div className="mb-2 cursor-pointer bg-blue-900 px-2 text-center text-2xl text-white">
                 <a
