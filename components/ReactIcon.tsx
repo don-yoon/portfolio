@@ -6,7 +6,7 @@ interface TechProps {
 }
 
 const ReactIcon: React.FC<TechProps> = ({ logo }) => {
-  const path: string = `/${logo}.svg`
+  const path = `/${logo}.svg`
   return (
     <div className="relative h-[10vh] w-[10vw]">
       <Image src={path} layout="fill" alt={`${logo} logo`} />
