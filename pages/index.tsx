@@ -2,6 +2,7 @@ import type { NextPage } from "next"
 import Head from "next/head"
 import React from "react"
 import AboutMe from "../components/AboutMe"
+import Projects from "../components/Projects"
 
 const Home: NextPage = () => {
   return (
@@ -11,9 +12,10 @@ const Home: NextPage = () => {
         <meta name="description" content="Welcome to my portfolio" />
         <link rel="icon" href="./dlogo2.svg" />
       </Head>
-      <div>
+      <div className="scroll-smooth">
         <main>
-          <AboutMe />
+          <AboutMe/>  
+          <Projects/>
         </main>
       </div>
     </>

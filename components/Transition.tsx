@@ -1,6 +1,6 @@
 import React from "react"
-import { motion, AnimatePresence } from "framer-motion"
-import { useRouter } from "next/router"
+import { motion } from "framer-motion"
+
 
 interface ChildrenProps {
   children: JSX.Element | JSX.Element[];
@@ -9,23 +9,23 @@ interface ChildrenProps {
 const variant = {
   inactive: {
     opacity: 1,
-    y: 0,
+    x: 0,
     transition: {
       duration: 1,
       ease: "easeInOut",
     },
   },
-  out: {
+  right: {
     opacity: 0,
-    y: -100,
+    x: 200,
     transition: {
-      duration: 1,
+      duration: 2,
       ease: "easeInOut",
     },
   },
-  in: {
+  left: {
     opacity: 0,
-    y: 100,
+    x: -200,
     transition: {
       duration: 1,
       ease: "easeInOut",
@@ -34,20 +34,23 @@ const variant = {
 }
 
 const Transition = ({ children }: ChildrenProps) => {
-  const { asPath } = useRouter()
+  
   return (
     <div className="overflow-hidden">
-      <AnimatePresence initial={false} exitBeforeEnter>
+      
+      <motion.div
+        initial="right"
+        whileInView="inactive"
+        viewport={{once:true, amount:0.8}}
+        transition={{staggerChildren: 1}}
+      >
         <motion.div
-          key={asPath}
           variants={variant}
-          initial="in"
-          animate="inactive"
-          exit="out"
         >
           {children}
         </motion.div>
-      </AnimatePresence>
+      </motion.div>
+      
     </div>
   )
 }
