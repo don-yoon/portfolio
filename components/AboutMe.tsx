@@ -33,6 +33,7 @@ const AboutMe: React.FC = () => {
     <motion.div className="pointer-events-none flex h-[90vh] select-none items-center justify-center rounded-md bg-slate-100 object-fill p-10 text-xl sm:text-base"
       initial={"offscreen"}
       animate={"onscreen"}
+      viewport={{once:true, amount:0.8}}
       transition={{staggerChildren: 0.6}}
     >
       

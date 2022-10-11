@@ -1,5 +1,5 @@
 import React from "react"
-// import Link from "next/link"
+import Link from "next/link"
 
 const Header = () => {
   return (
@@ -9,13 +9,11 @@ const Header = () => {
       </div>
       <div className="my-auto ml-auto mr-10 flex flex-row space-x-10 text-lg">
         <div className="transition duration-[400] hover:scale-110">
-          {/* <Link href="/projects">Projects</Link> */}
-          {"Projects"}
+          <Link href="#projects">Projects</Link>
         </div>
-        <div className="transition duration-[400] hover:scale-110">
-          {/* <Link href="/">Home</Link> */}
-          {"Home"}
-        </div>
+        {/* <div className="transition duration-[400] hover:scale-110"> */}
+        {/* <Link href="/">Home</Link> */}
+        {/* </div> */}
       </div>
     </div>
   )
